@@ -1,0 +1,81 @@
+.profile-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background: linear-gradient(135deg, #e0f0ff, #ffffff);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Updated profile image container */
+.profile-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile image itself */
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.profile-container h2 {
+  color: #010202;
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+}
+
+.profile-section {
+  background: white;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.profile-section h3 {
+  color: #000000;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  border-bottom: 4px solid #fff200;
+  padding-bottom: 5px;
+}
+
+.profile-skills {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.profile-skills li {
+  background-color: #097eec;
+  color: #020201;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  cursor: default;
+}
+
+.profile-skills li:hover {
+  background-color: #007acc;
+  color: white;
+}

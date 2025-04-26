@@ -1,0 +1,52 @@
+.contact-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background: linear-gradient(135deg, #e0f7ff, #ffffff);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #003366;
+  text-align: center;
+}
+
+.contact-container h2 {
+  color: #000000;
+  margin-bottom: 25px;
+  font-size: 2.2rem;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
+
+.contact-info strong {
+  width: 80px;
+  color: #000000;
+  font-weight: 700;
+  text-align: right;
+}
+
+.contact-info a {
+  color: #3097ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  color: #1d577d;
+  user-select: none;
+}
